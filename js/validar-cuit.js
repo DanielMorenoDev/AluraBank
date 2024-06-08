@@ -12,7 +12,6 @@ export default function esUnCUIT(campo) {
     campo.setCustomValidity("Son números repetidos");
   }
 }
-
 function tieneCaracteresRepetidos(cuit) {
   const numerosRepetidos = [
     "00000000000",

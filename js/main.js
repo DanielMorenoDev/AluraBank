@@ -20,7 +20,6 @@ formulario.addEventListener("submit", (e) => {
 
 camposDeFormulario.forEach((campo) => {
   campo.addEventListener("blur", () => verificarCampo(campo));
-  /* caputar evento invalid */
   campo.addEventListener("invalid", (evento) => evento.preventDefault());
 });
 
